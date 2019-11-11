@@ -1,0 +1,1 @@
+../../../LiquidBaseKit/LiquidBaseKit/Classes/Util/SynthesizeSingleton.h

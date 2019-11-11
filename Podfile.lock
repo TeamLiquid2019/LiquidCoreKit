@@ -1,0 +1,93 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - BGFMDB (2.0.13):
+    - BGFMDB/BG (= 2.0.13)
+    - BGFMDB/FMDB (= 2.0.13)
+  - BGFMDB/BG (2.0.13):
+    - BGFMDB/FMDB
+  - BGFMDB/FMDB (2.0.13)
+  - LiquidBaseKit (0.0.5):
+    - AFNetworking (~> 3.2.1)
+    - BGFMDB
+    - LiquidBaseKit/Cache (= 0.0.5)
+    - LiquidBaseKit/DB (= 0.0.5)
+    - LiquidBaseKit/Networking (= 0.0.5)
+    - LiquidBaseKit/RSA (= 0.0.5)
+    - LiquidBaseKit/Util (= 0.0.5)
+    - OpenSSL-for-iOS (~> 1.0.2.d.1)
+    - ReactiveObjC (~> 3.1.0)
+    - YYKit
+  - LiquidBaseKit/Cache (0.0.5):
+    - AFNetworking (~> 3.2.1)
+    - BGFMDB
+    - OpenSSL-for-iOS (~> 1.0.2.d.1)
+    - ReactiveObjC (~> 3.1.0)
+    - YYKit
+  - LiquidBaseKit/DB (0.0.5):
+    - AFNetworking (~> 3.2.1)
+    - BGFMDB
+    - OpenSSL-for-iOS (~> 1.0.2.d.1)
+    - ReactiveObjC (~> 3.1.0)
+    - YYKit
+  - LiquidBaseKit/Networking (0.0.5):
+    - AFNetworking (~> 3.2.1)
+    - BGFMDB
+    - OpenSSL-for-iOS (~> 1.0.2.d.1)
+    - ReactiveObjC (~> 3.1.0)
+    - YYKit
+  - LiquidBaseKit/RSA (0.0.5):
+    - AFNetworking (~> 3.2.1)
+    - BGFMDB
+    - OpenSSL-for-iOS (~> 1.0.2.d.1)
+    - ReactiveObjC (~> 3.1.0)
+    - YYKit
+  - LiquidBaseKit/Util (0.0.5):
+    - AFNetworking (~> 3.2.1)
+    - BGFMDB
+    - OpenSSL-for-iOS (~> 1.0.2.d.1)
+    - ReactiveObjC (~> 3.1.0)
+    - YYKit
+  - OpenSSL-for-iOS (1.0.2.d.1)
+  - ReactiveObjC (3.1.1)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - LiquidBaseKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - BGFMDB
+    - OpenSSL-for-iOS
+    - ReactiveObjC
+    - YYKit
+  https://github.com/TeamLiquid2019/LiquidClientSpecs.git:
+    - LiquidBaseKit
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  BGFMDB: 48e6823027232402a678acc7f71484b1fc9171d0
+  LiquidBaseKit: a210b24d25c4a60fbb6a0e2706bb899c2beda731
+  OpenSSL-for-iOS: d7a30add88a1969b052135adbe48452af231ed32
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 657f60d42cc31e2b9ed9eb525ce1b27a7e6a3298
+
+COCOAPODS: 1.8.4
