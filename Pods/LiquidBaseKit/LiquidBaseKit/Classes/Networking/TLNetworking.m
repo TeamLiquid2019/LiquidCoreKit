@@ -70,6 +70,14 @@
     [self.headers setDictionary:httpHeader];
 }
 
+/**
+*  配置manager
+*  @param sessionManager manager
+*/
+- (void)configSessinManager:(AFHTTPSessionManager *)sessionManager{
+    self.sessionManager = sessionManager;
+}
+
 #pragma mark - < 请求方法 >
 
 - (TLURLSessionTask *)getWithUrl:(NSString *)url params:(NSMutableDictionary *)params cache:(BOOL)cache progressBlock:(TLGetProgress)progressBlock successBlock:(TLResponseSuccessBlock)successBlock failBlock:(TLResponseFailBlock)failBlock{
@@ -222,9 +230,9 @@
         
         //配置响应序列化
 //        _sessionManager.responseSerializer.acceptableContentTypes = [NSSet setWithArray:@[@"application/json", @"text/html", @"text/json", @"text/plain", @"text/javascript", @"text/xml", @"image/*", @"application/octet-stream", @"application/zip"]];
+        
+        _sessionManager.requestSerializer.timeoutInterval = _timeOut;
     }
-    
-    _sessionManager.requestSerializer.timeoutInterval = _timeOut;
     
     //每次请求时，设置Header
     for (NSString *key in self.headers.allKeys) {

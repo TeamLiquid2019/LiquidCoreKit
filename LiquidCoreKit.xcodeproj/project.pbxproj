@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,16 @@
 		075E9ADC237933140038E3C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075E9ADB237933140038E3C1 /* ViewController.m */; };
 		075E9AE1237933140038E3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075E9AE0237933140038E3C1 /* Assets.xcassets */; };
 		075E9AE7237933140038E3C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 075E9AE6237933140038E3C1 /* main.m */; };
+		075E9AFC23793EB00038E3C1 /* HttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 075E9AFB23793EB00038E3C1 /* HttpUtil.m */; };
+		075E9AFF237940F40038E3C1 /* TLResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 075E9AFE237940F40038E3C1 /* TLResponse.m */; };
+		075E9B03237946C60038E3C1 /* AppDotNetAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 075E9B02237946C60038E3C1 /* AppDotNetAPIClient.m */; };
+		075E9B07237949540038E3C1 /* LogonManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 075E9B06237949540038E3C1 /* LogonManager.m */; };
+		075E9B0A23794AD80038E3C1 /* TLResponseCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 075E9B0923794AD80038E3C1 /* TLResponseCode.m */; };
+		075E9B0E23794C3D0038E3C1 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 075E9B0C23794C3D0038E3C1 /* DateUtil.m */; };
+		075E9B1C2379D2580038E3C1 /* SplashMovieViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075E9B1B2379D2580038E3C1 /* SplashMovieViewController.m */; };
+		075E9B202379D2820038E3C1 /* TLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075E9B1F2379D2820038E3C1 /* TLBaseViewController.m */; };
+		075E9B252379D3C90038E3C1 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 075E9B242379D3C90038E3C1 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		075E9B2C2379E0EF0038E3C1 /* splash_movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 075E9B2B2379E0EF0038E3C1 /* splash_movie.mp4 */; };
 		498315B43AC630E0348A4591 /* libPods-LiquidCoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB23A740BBD0E9FDB1BE400 /* libPods-LiquidCoreKit.a */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +33,28 @@
 		075E9AE0237933140038E3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		075E9AE5237933140038E3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		075E9AE6237933140038E3C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		075E9AFA23793EB00038E3C1 /* HttpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpUtil.h; sourceTree = "<group>"; };
+		075E9AFB23793EB00038E3C1 /* HttpUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpUtil.m; sourceTree = "<group>"; };
+		075E9AFD237940F40038E3C1 /* TLResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLResponse.h; sourceTree = "<group>"; };
+		075E9AFE237940F40038E3C1 /* TLResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLResponse.m; sourceTree = "<group>"; };
+		075E9B00237941900038E3C1 /* LiquidCoreMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiquidCoreMacro.h; sourceTree = "<group>"; };
+		075E9B01237946C60038E3C1 /* AppDotNetAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDotNetAPIClient.h; sourceTree = "<group>"; };
+		075E9B02237946C60038E3C1 /* AppDotNetAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDotNetAPIClient.m; sourceTree = "<group>"; };
+		075E9B05237949540038E3C1 /* LogonManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogonManager.h; sourceTree = "<group>"; };
+		075E9B06237949540038E3C1 /* LogonManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogonManager.m; sourceTree = "<group>"; };
+		075E9B0823794AD80038E3C1 /* TLResponseCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLResponseCode.h; sourceTree = "<group>"; };
+		075E9B0923794AD80038E3C1 /* TLResponseCode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLResponseCode.m; sourceTree = "<group>"; };
+		075E9B0C23794C3D0038E3C1 /* DateUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateUtil.m; sourceTree = "<group>"; };
+		075E9B0D23794C3D0038E3C1 /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
+		075E9B1A2379D2580038E3C1 /* SplashMovieViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashMovieViewController.h; sourceTree = "<group>"; };
+		075E9B1B2379D2580038E3C1 /* SplashMovieViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashMovieViewController.m; sourceTree = "<group>"; };
+		075E9B1E2379D2820038E3C1 /* TLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLBaseViewController.h; sourceTree = "<group>"; };
+		075E9B1F2379D2820038E3C1 /* TLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLBaseViewController.m; sourceTree = "<group>"; };
+		075E9B232379D3C90038E3C1 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		075E9B242379D3C90038E3C1 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		075E9B262379D7250038E3C1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		075E9B272379DD2C0038E3C1 /* UIMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIMacro.h; sourceTree = "<group>"; };
+		075E9B2B2379E0EF0038E3C1 /* splash_movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash_movie.mp4; sourceTree = "<group>"; };
 		0FFB2BB799F483BFD20444B2 /* Pods-LiquidCoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiquidCoreKit.release.xcconfig"; path = "Target Support Files/Pods-LiquidCoreKit/Pods-LiquidCoreKit.release.xcconfig"; sourceTree = "<group>"; };
 		6A92A4A97B68D78D6C588E01 /* Pods-LiquidCoreKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiquidCoreKit.debug.xcconfig"; path = "Target Support Files/Pods-LiquidCoreKit/Pods-LiquidCoreKit.debug.xcconfig"; sourceTree = "<group>"; };
 		FCB23A740BBD0E9FDB1BE400 /* libPods-LiquidCoreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiquidCoreKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,11 +95,14 @@
 			children = (
 				075E9AD4237933140038E3C1 /* AppDelegate.h */,
 				075E9AD5237933140038E3C1 /* AppDelegate.m */,
+				075E9B0F23794EF50038E3C1 /* Category */,
 				075E9AF6237936680038E3C1 /* Comm */,
 				075E9AF5237936600038E3C1 /* Utils */,
 				075E9AF4237936590038E3C1 /* Macro */,
 				075E9AEF237935FC0038E3C1 /* CoreKit */,
 				075E9AEE237935E90038E3C1 /* ViewControllers */,
+				075E9B212379D3BA0038E3C1 /* ThridParty */,
+				075E9B282379E0C40038E3C1 /* Resource */,
 				075E9AED237933620038E3C1 /* Supporting Files */,
 				075E9AE0237933140038E3C1 /* Assets.xcassets */,
 			);
@@ -79,6 +114,7 @@
 			children = (
 				075E9AE5237933140038E3C1 /* Info.plist */,
 				075E9AE6237933140038E3C1 /* main.m */,
+				075E9B262379D7250038E3C1 /* PrefixHeader.pch */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -86,6 +122,7 @@
 		075E9AEE237935E90038E3C1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				075E9B182379D22F0038E3C1 /* Splash */,
 				075E9ADA237933140038E3C1 /* ViewController.h */,
 				075E9ADB237933140038E3C1 /* ViewController.m */,
 				075E9AF9237936A80038E3C1 /* Mine */,
@@ -107,6 +144,7 @@
 		075E9AF02379360A0038E3C1 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				075E9B04237949460038E3C1 /* Manager */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -128,6 +166,8 @@
 		075E9AF4237936590038E3C1 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				075E9B00237941900038E3C1 /* LiquidCoreMacro.h */,
+				075E9B272379DD2C0038E3C1 /* UIMacro.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -135,6 +175,7 @@
 		075E9AF5237936600038E3C1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				075E9B0B23794C270038E3C1 /* DateUtil */,
 				075E9AF7237936700038E3C1 /* HttpUtil */,
 			);
 			path = Utils;
@@ -143,6 +184,7 @@
 		075E9AF6237936680038E3C1 /* Comm */ = {
 			isa = PBXGroup;
 			children = (
+				075E9B1D2379D2680038E3C1 /* UIBase */,
 			);
 			path = Comm;
 			sourceTree = "<group>";
@@ -150,6 +192,14 @@
 		075E9AF7237936700038E3C1 /* HttpUtil */ = {
 			isa = PBXGroup;
 			children = (
+				075E9AFA23793EB00038E3C1 /* HttpUtil.h */,
+				075E9AFB23793EB00038E3C1 /* HttpUtil.m */,
+				075E9AFD237940F40038E3C1 /* TLResponse.h */,
+				075E9AFE237940F40038E3C1 /* TLResponse.m */,
+				075E9B0823794AD80038E3C1 /* TLResponseCode.h */,
+				075E9B0923794AD80038E3C1 /* TLResponseCode.m */,
+				075E9B01237946C60038E3C1 /* AppDotNetAPIClient.h */,
+				075E9B02237946C60038E3C1 /* AppDotNetAPIClient.m */,
 			);
 			path = HttpUtil;
 			sourceTree = "<group>";
@@ -168,13 +218,104 @@
 			path = Mine;
 			sourceTree = "<group>";
 		};
+		075E9B04237949460038E3C1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				075E9B05237949540038E3C1 /* LogonManager.h */,
+				075E9B06237949540038E3C1 /* LogonManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		075E9B0B23794C270038E3C1 /* DateUtil */ = {
+			isa = PBXGroup;
+			children = (
+				075E9B0D23794C3D0038E3C1 /* DateUtil.h */,
+				075E9B0C23794C3D0038E3C1 /* DateUtil.m */,
+			);
+			path = DateUtil;
+			sourceTree = "<group>";
+		};
+		075E9B0F23794EF50038E3C1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		075E9B182379D22F0038E3C1 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				075E9B192379D2380038E3C1 /* ViewControllers */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		075E9B192379D2380038E3C1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				075E9B1A2379D2580038E3C1 /* SplashMovieViewController.h */,
+				075E9B1B2379D2580038E3C1 /* SplashMovieViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		075E9B1D2379D2680038E3C1 /* UIBase */ = {
+			isa = PBXGroup;
+			children = (
+				075E9B1E2379D2820038E3C1 /* TLBaseViewController.h */,
+				075E9B1F2379D2820038E3C1 /* TLBaseViewController.m */,
+			);
+			path = UIBase;
+			sourceTree = "<group>";
+		};
+		075E9B212379D3BA0038E3C1 /* ThridParty */ = {
+			isa = PBXGroup;
+			children = (
+				075E9B222379D3C90038E3C1 /* UINavigationController+FDFullscreenPopGesture */,
+			);
+			path = ThridParty;
+			sourceTree = "<group>";
+		};
+		075E9B222379D3C90038E3C1 /* UINavigationController+FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				075E9B232379D3C90038E3C1 /* UINavigationController+FDFullscreenPopGesture.h */,
+				075E9B242379D3C90038E3C1 /* UINavigationController+FDFullscreenPopGesture.m */,
+			);
+			path = "UINavigationController+FDFullscreenPopGesture";
+			sourceTree = "<group>";
+		};
+		075E9B282379E0C40038E3C1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				075E9B2A2379E0D50038E3C1 /* Video */,
+				075E9B292379E0D10038E3C1 /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		075E9B292379E0D10038E3C1 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		075E9B2A2379E0D50038E3C1 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				075E9B2B2379E0EF0038E3C1 /* splash_movie.mp4 */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
 		2EFD525010458B71E502BB15 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				6A92A4A97B68D78D6C588E01 /* Pods-LiquidCoreKit.debug.xcconfig */,
 				0FFB2BB799F483BFD20444B2 /* Pods-LiquidCoreKit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -197,6 +338,7 @@
 				075E9ACD237933140038E3C1 /* Sources */,
 				075E9ACE237933140038E3C1 /* Frameworks */,
 				075E9ACF237933140038E3C1 /* Resources */,
+				E0E579593CA82E3389A3BC23 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +387,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				075E9AE1237933140038E3C1 /* Assets.xcassets in Resources */,
+				075E9B2C2379E0EF0038E3C1 /* splash_movie.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +416,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E0E579593CA82E3389A3BC23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiquidCoreKit/Pods-LiquidCoreKit-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LiquidCoreKit/Pods-LiquidCoreKit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LiquidCoreKit/Pods-LiquidCoreKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -280,9 +440,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				075E9B1C2379D2580038E3C1 /* SplashMovieViewController.m in Sources */,
 				075E9ADC237933140038E3C1 /* ViewController.m in Sources */,
+				075E9B07237949540038E3C1 /* LogonManager.m in Sources */,
+				075E9B03237946C60038E3C1 /* AppDotNetAPIClient.m in Sources */,
 				075E9AD6237933140038E3C1 /* AppDelegate.m in Sources */,
+				075E9B202379D2820038E3C1 /* TLBaseViewController.m in Sources */,
+				075E9B252379D3C90038E3C1 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+				075E9AFF237940F40038E3C1 /* TLResponse.m in Sources */,
+				075E9B0A23794AD80038E3C1 /* TLResponseCode.m in Sources */,
+				075E9B0E23794C3D0038E3C1 /* DateUtil.m in Sources */,
 				075E9AE7237933140038E3C1 /* main.m in Sources */,
+				075E9AFC23793EB00038E3C1 /* HttpUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +575,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 19111101;
+				GCC_PREFIX_HEADER = "${SRCROOT}/LiquidCoreKit/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/LiquidCoreKit/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -425,6 +595,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 19111101;
+				GCC_PREFIX_HEADER = "${SRCROOT}/LiquidCoreKit/Supporting Files/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/LiquidCoreKit/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

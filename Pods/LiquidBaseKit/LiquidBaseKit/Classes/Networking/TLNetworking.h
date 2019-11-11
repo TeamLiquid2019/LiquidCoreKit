@@ -7,6 +7,8 @@
 
 #import <Foundation/Foundation.h>
 
+@class AFHTTPSessionManager;
+
 /**
  *  请求任务
  */
@@ -59,6 +61,12 @@ typedef TLDownloadProgress TLPostProgress;
 *  @param httpHeader 请求头
 */
 - (void)configHttpHeader:(NSMutableDictionary *)httpHeader;
+
+/**
+*  配置manager
+*  @param sessionManager manager
+*/
+- (void)configSessinManager:(AFHTTPSessionManager *)sessionManager;
 
 /**
 *  GET请求

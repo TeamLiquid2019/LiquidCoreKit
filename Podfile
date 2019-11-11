@@ -5,5 +5,7 @@ platform :ios, '9.0'
 
 target 'LiquidCoreKit' do
   pod 'LiquidBaseKit'
-
+  pod 'CocoaLumberjack'
+  pod 'IQKeyboardManager'
+  pod 'Masonry'
 end
