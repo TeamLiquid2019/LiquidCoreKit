@@ -74,14 +74,9 @@
 
 #pragma mark - < UI操作 >
 
-- (void)leftBarButtonClick:(id)sender{
-    
-}
-
-- (void)rightBarButtonClick:(id)sender{
-    
-}
 
 #pragma mark - < Lazy Load >
+
+
 
 @end
