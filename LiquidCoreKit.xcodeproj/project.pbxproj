@@ -33,6 +33,7 @@
 		079F0E95238188ED000D00D6 /* iOS_Intro_C.png in Resources */ = {isa = PBXBuildFile; fileRef = 079F0E8F238188EC000D00D6 /* iOS_Intro_C.png */; };
 		079F0E96238188ED000D00D6 /* iOS_Intro_E.png in Resources */ = {isa = PBXBuildFile; fileRef = 079F0E90238188EC000D00D6 /* iOS_Intro_E.png */; };
 		079F0E97238188ED000D00D6 /* iOS_Intro_B.png in Resources */ = {isa = PBXBuildFile; fileRef = 079F0E91238188ED000D00D6 /* iOS_Intro_B.png */; };
+		079F0E9A23818B3C000D00D6 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 079F0E9923818B3C000D00D6 /* LoginViewController.m */; };
 		498315B43AC630E0348A4591 /* libPods-LiquidCoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB23A740BBD0E9FDB1BE400 /* libPods-LiquidCoreKit.a */; };
 /* End PBXBuildFile section */
 

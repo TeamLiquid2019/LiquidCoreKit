@@ -8,25 +8,80 @@
 
 #import "LoginViewController.h"
 
+
+#import "UINavigationController+FDFullscreenPopGesture.h"
+
 @interface LoginViewController ()
 
 @end
 
 @implementation LoginViewController
 
+#pragma mark - < 生命周期方法 >
+
+- (instancetype)init{
+    if (self = [super init]) {
+        
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.fd_prefersNavigationBarHidden = YES;
+    
+    [self initView];
+    [self initData];
+    [self initNotification];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
 }
-*/
+
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    
+}
+
+- (void)viewWillDisappear:(BOOL)animated
+{
+    [super viewWillDisappear:animated];
+    
+}
+
+- (void)dealloc{
+    
+}
+
+
+#pragma mark - < 内部方法 >
+
+- (void)initView{
+    
+}
+
+- (void)initData{
+    
+}
+
+- (void)initNotification{
+    
+}
+
+#pragma mark - < 外部方法 >
+
+
+#pragma mark - < UI操作 >
+
+- (void)leftBarButtonClick:(id)sender{
+    
+}
+
+- (void)rightBarButtonClick:(id)sender{
+    
+}
+
+#pragma mark - < Lazy Load >
 
 @end
