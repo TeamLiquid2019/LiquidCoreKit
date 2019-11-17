@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07142F63237EF4B3006021C3 /* SplashYDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07142F62237EF4B3006021C3 /* SplashYDViewController.m */; };
 		075E9AD6237933140038E3C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 075E9AD5237933140038E3C1 /* AppDelegate.m */; };
-		075E9ADC237933140038E3C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075E9ADB237933140038E3C1 /* ViewController.m */; };
 		075E9AE1237933140038E3C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075E9AE0237933140038E3C1 /* Assets.xcassets */; };
 		075E9AE7237933140038E3C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 075E9AE6237933140038E3C1 /* main.m */; };
 		075E9AFC23793EB00038E3C1 /* HttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 075E9AFB23793EB00038E3C1 /* HttpUtil.m */; };
@@ -21,15 +21,27 @@
 		075E9B202379D2820038E3C1 /* TLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075E9B1F2379D2820038E3C1 /* TLBaseViewController.m */; };
 		075E9B252379D3C90038E3C1 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 075E9B242379D3C90038E3C1 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		075E9B2C2379E0EF0038E3C1 /* splash_movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 075E9B2B2379E0EF0038E3C1 /* splash_movie.mp4 */; };
+		079F0E7D2381857B000D00D6 /* PixelUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 079F0E7C2381857B000D00D6 /* PixelUtil.m */; };
+		079F0E8123818642000D00D6 /* MBPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 079F0E7F23818642000D00D6 /* MBPageView.m */; };
+		079F0E86238188C1000D00D6 /* intro_backgroung@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 079F0E84238188C1000D00D6 /* intro_backgroung@2x.png */; };
+		079F0E87238188C1000D00D6 /* intro_backgroung@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 079F0E85238188C1000D00D6 /* intro_backgroung@3x.png */; };
+		079F0E8A238188E0000D00D6 /* splash_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 079F0E88238188E0000D00D6 /* splash_icon@3x.png */; };
+		079F0E8B238188E0000D00D6 /* splash_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 079F0E89238188E0000D00D6 /* splash_icon@2x.png */; };
+		079F0E92238188ED000D00D6 /* iOS_Intro_A.png in Resources */ = {isa = PBXBuildFile; fileRef = 079F0E8C238188EC000D00D6 /* iOS_Intro_A.png */; };
+		079F0E93238188ED000D00D6 /* iOS_Intro_D.png in Resources */ = {isa = PBXBuildFile; fileRef = 079F0E8D238188EC000D00D6 /* iOS_Intro_D.png */; };
+		079F0E94238188ED000D00D6 /* iOS_Intro_F.png in Resources */ = {isa = PBXBuildFile; fileRef = 079F0E8E238188EC000D00D6 /* iOS_Intro_F.png */; };
+		079F0E95238188ED000D00D6 /* iOS_Intro_C.png in Resources */ = {isa = PBXBuildFile; fileRef = 079F0E8F238188EC000D00D6 /* iOS_Intro_C.png */; };
+		079F0E96238188ED000D00D6 /* iOS_Intro_E.png in Resources */ = {isa = PBXBuildFile; fileRef = 079F0E90238188EC000D00D6 /* iOS_Intro_E.png */; };
+		079F0E97238188ED000D00D6 /* iOS_Intro_B.png in Resources */ = {isa = PBXBuildFile; fileRef = 079F0E91238188ED000D00D6 /* iOS_Intro_B.png */; };
 		498315B43AC630E0348A4591 /* libPods-LiquidCoreKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FCB23A740BBD0E9FDB1BE400 /* libPods-LiquidCoreKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07142F61237EF4B3006021C3 /* SplashYDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashYDViewController.h; sourceTree = "<group>"; };
+		07142F62237EF4B3006021C3 /* SplashYDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashYDViewController.m; sourceTree = "<group>"; };
 		075E9AD1237933140038E3C1 /* LiquidCoreKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiquidCoreKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		075E9AD4237933140038E3C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		075E9AD5237933140038E3C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		075E9ADA237933140038E3C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		075E9ADB237933140038E3C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		075E9AE0237933140038E3C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		075E9AE5237933140038E3C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		075E9AE6237933140038E3C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -55,6 +67,20 @@
 		075E9B262379D7250038E3C1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		075E9B272379DD2C0038E3C1 /* UIMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIMacro.h; sourceTree = "<group>"; };
 		075E9B2B2379E0EF0038E3C1 /* splash_movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash_movie.mp4; sourceTree = "<group>"; };
+		079F0E7B2381857B000D00D6 /* PixelUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixelUtil.h; sourceTree = "<group>"; };
+		079F0E7C2381857B000D00D6 /* PixelUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PixelUtil.m; sourceTree = "<group>"; };
+		079F0E7F23818642000D00D6 /* MBPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBPageView.m; sourceTree = "<group>"; };
+		079F0E8023818642000D00D6 /* MBPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBPageView.h; sourceTree = "<group>"; };
+		079F0E84238188C1000D00D6 /* intro_backgroung@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "intro_backgroung@2x.png"; sourceTree = "<group>"; };
+		079F0E85238188C1000D00D6 /* intro_backgroung@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "intro_backgroung@3x.png"; sourceTree = "<group>"; };
+		079F0E88238188E0000D00D6 /* splash_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash_icon@3x.png"; sourceTree = "<group>"; };
+		079F0E89238188E0000D00D6 /* splash_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash_icon@2x.png"; sourceTree = "<group>"; };
+		079F0E8C238188EC000D00D6 /* iOS_Intro_A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS_Intro_A.png; sourceTree = "<group>"; };
+		079F0E8D238188EC000D00D6 /* iOS_Intro_D.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS_Intro_D.png; sourceTree = "<group>"; };
+		079F0E8E238188EC000D00D6 /* iOS_Intro_F.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS_Intro_F.png; sourceTree = "<group>"; };
+		079F0E8F238188EC000D00D6 /* iOS_Intro_C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS_Intro_C.png; sourceTree = "<group>"; };
+		079F0E90238188EC000D00D6 /* iOS_Intro_E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS_Intro_E.png; sourceTree = "<group>"; };
+		079F0E91238188ED000D00D6 /* iOS_Intro_B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS_Intro_B.png; sourceTree = "<group>"; };
 		0FFB2BB799F483BFD20444B2 /* Pods-LiquidCoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiquidCoreKit.release.xcconfig"; path = "Target Support Files/Pods-LiquidCoreKit/Pods-LiquidCoreKit.release.xcconfig"; sourceTree = "<group>"; };
 		6A92A4A97B68D78D6C588E01 /* Pods-LiquidCoreKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiquidCoreKit.debug.xcconfig"; path = "Target Support Files/Pods-LiquidCoreKit/Pods-LiquidCoreKit.debug.xcconfig"; sourceTree = "<group>"; };
 		FCB23A740BBD0E9FDB1BE400 /* libPods-LiquidCoreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiquidCoreKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,8 +149,6 @@
 			isa = PBXGroup;
 			children = (
 				075E9B182379D22F0038E3C1 /* Splash */,
-				075E9ADA237933140038E3C1 /* ViewController.h */,
-				075E9ADB237933140038E3C1 /* ViewController.m */,
 				075E9AF9237936A80038E3C1 /* Mine */,
 				075E9AF8237936A10038E3C1 /* Login */,
 			);
@@ -175,6 +199,7 @@
 		075E9AF5237936600038E3C1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				079F0E7A2381854D000D00D6 /* ScreenUtil */,
 				075E9B0B23794C270038E3C1 /* DateUtil */,
 				075E9AF7237936700038E3C1 /* HttpUtil */,
 			);
@@ -246,6 +271,7 @@
 		075E9B182379D22F0038E3C1 /* Splash */ = {
 			isa = PBXGroup;
 			children = (
+				079F0E7E2381861F000D00D6 /* View */,
 				075E9B192379D2380038E3C1 /* ViewControllers */,
 			);
 			path = Splash;
@@ -256,6 +282,8 @@
 			children = (
 				075E9B1A2379D2580038E3C1 /* SplashMovieViewController.h */,
 				075E9B1B2379D2580038E3C1 /* SplashMovieViewController.m */,
+				07142F61237EF4B3006021C3 /* SplashYDViewController.h */,
+				07142F62237EF4B3006021C3 /* SplashYDViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -298,6 +326,7 @@
 		075E9B292379E0D10038E3C1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				079F0E832381889F000D00D6 /* Splash */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -308,6 +337,41 @@
 				075E9B2B2379E0EF0038E3C1 /* splash_movie.mp4 */,
 			);
 			path = Video;
+			sourceTree = "<group>";
+		};
+		079F0E7A2381854D000D00D6 /* ScreenUtil */ = {
+			isa = PBXGroup;
+			children = (
+				079F0E7B2381857B000D00D6 /* PixelUtil.h */,
+				079F0E7C2381857B000D00D6 /* PixelUtil.m */,
+			);
+			path = ScreenUtil;
+			sourceTree = "<group>";
+		};
+		079F0E7E2381861F000D00D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				079F0E8023818642000D00D6 /* MBPageView.h */,
+				079F0E7F23818642000D00D6 /* MBPageView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		079F0E832381889F000D00D6 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				079F0E8C238188EC000D00D6 /* iOS_Intro_A.png */,
+				079F0E91238188ED000D00D6 /* iOS_Intro_B.png */,
+				079F0E8F238188EC000D00D6 /* iOS_Intro_C.png */,
+				079F0E8D238188EC000D00D6 /* iOS_Intro_D.png */,
+				079F0E90238188EC000D00D6 /* iOS_Intro_E.png */,
+				079F0E8E238188EC000D00D6 /* iOS_Intro_F.png */,
+				079F0E89238188E0000D00D6 /* splash_icon@2x.png */,
+				079F0E88238188E0000D00D6 /* splash_icon@3x.png */,
+				079F0E84238188C1000D00D6 /* intro_backgroung@2x.png */,
+				079F0E85238188C1000D00D6 /* intro_backgroung@3x.png */,
+			);
+			path = Splash;
 			sourceTree = "<group>";
 		};
 		2EFD525010458B71E502BB15 /* Pods */ = {
@@ -387,7 +451,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				075E9AE1237933140038E3C1 /* Assets.xcassets in Resources */,
+				079F0E96238188ED000D00D6 /* iOS_Intro_E.png in Resources */,
+				079F0E92238188ED000D00D6 /* iOS_Intro_A.png in Resources */,
+				079F0E95238188ED000D00D6 /* iOS_Intro_C.png in Resources */,
+				079F0E86238188C1000D00D6 /* intro_backgroung@2x.png in Resources */,
+				079F0E97238188ED000D00D6 /* iOS_Intro_B.png in Resources */,
+				079F0E93238188ED000D00D6 /* iOS_Intro_D.png in Resources */,
+				079F0E8A238188E0000D00D6 /* splash_icon@3x.png in Resources */,
 				075E9B2C2379E0EF0038E3C1 /* splash_movie.mp4 in Resources */,
+				079F0E8B238188E0000D00D6 /* splash_icon@2x.png in Resources */,
+				079F0E87238188C1000D00D6 /* intro_backgroung@3x.png in Resources */,
+				079F0E94238188ED000D00D6 /* iOS_Intro_F.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,16 +515,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				075E9B1C2379D2580038E3C1 /* SplashMovieViewController.m in Sources */,
-				075E9ADC237933140038E3C1 /* ViewController.m in Sources */,
 				075E9B07237949540038E3C1 /* LogonManager.m in Sources */,
+				07142F63237EF4B3006021C3 /* SplashYDViewController.m in Sources */,
 				075E9B03237946C60038E3C1 /* AppDotNetAPIClient.m in Sources */,
 				075E9AD6237933140038E3C1 /* AppDelegate.m in Sources */,
 				075E9B202379D2820038E3C1 /* TLBaseViewController.m in Sources */,
+				079F0E7D2381857B000D00D6 /* PixelUtil.m in Sources */,
 				075E9B252379D3C90038E3C1 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				075E9AFF237940F40038E3C1 /* TLResponse.m in Sources */,
 				075E9B0A23794AD80038E3C1 /* TLResponseCode.m in Sources */,
 				075E9B0E23794C3D0038E3C1 /* DateUtil.m in Sources */,
 				075E9AE7237933140038E3C1 /* main.m in Sources */,
+				079F0E8123818642000D00D6 /* MBPageView.m in Sources */,
 				075E9AFC23793EB00038E3C1 /* HttpUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

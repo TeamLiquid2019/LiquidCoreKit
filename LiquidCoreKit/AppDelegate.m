@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 #import "SplashMovieViewController.h"
+#import "SplashYDViewController.h"
 
 #import <CocoaLumberjack.h>
 
@@ -35,6 +36,20 @@
     [self initThirdParty];
     
     return YES;
+}
+
+#pragma mark - < 外部方法 >
+
+/// 跳转Tabs页面
+- (void)changeToTabsViewController{
+    //临时测试
+    [self.window setRootViewController:[[SplashMovieViewController alloc] init]];
+}
+
+
+/// 跳转引导页
+- (void)changeToYDViewController{
+    [self.window setRootViewController:[[SplashYDViewController alloc] init]];
 }
 
 

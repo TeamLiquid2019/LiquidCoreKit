@@ -14,6 +14,10 @@
 
 + (AppDelegate *)shareAppDelegate;
 
+- (void)changeToTabsViewController;
+
+- (void)changeToYDViewController;
+
 
 @end
 

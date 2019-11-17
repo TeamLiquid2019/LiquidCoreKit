@@ -225,6 +225,8 @@
 - (void)OnLogonClicked:(id)sender{
 //    Logon2_0_0ViewController *logonVC = [[Logon2_0_0ViewController alloc] init];
 //    [self.navigationController pushViewController:logonVC animated:YES];
+    //临时测试
+    [[AppDelegate shareAppDelegate] changeToYDViewController];
 }
 
 -(void)onClickContainerView:(UIView *)containerView text:(NSAttributedString *)text range:(NSRange )range rect:(CGRect)  rect{
