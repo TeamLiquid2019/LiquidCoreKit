@@ -82,6 +82,8 @@
 		079F0E8F238188EC000D00D6 /* iOS_Intro_C.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS_Intro_C.png; sourceTree = "<group>"; };
 		079F0E90238188EC000D00D6 /* iOS_Intro_E.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS_Intro_E.png; sourceTree = "<group>"; };
 		079F0E91238188ED000D00D6 /* iOS_Intro_B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS_Intro_B.png; sourceTree = "<group>"; };
+		079F0E9823818B3C000D00D6 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		079F0E9923818B3C000D00D6 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		0FFB2BB799F483BFD20444B2 /* Pods-LiquidCoreKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiquidCoreKit.release.xcconfig"; path = "Target Support Files/Pods-LiquidCoreKit/Pods-LiquidCoreKit.release.xcconfig"; sourceTree = "<group>"; };
 		6A92A4A97B68D78D6C588E01 /* Pods-LiquidCoreKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiquidCoreKit.debug.xcconfig"; path = "Target Support Files/Pods-LiquidCoreKit/Pods-LiquidCoreKit.debug.xcconfig"; sourceTree = "<group>"; };
 		FCB23A740BBD0E9FDB1BE400 /* libPods-LiquidCoreKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LiquidCoreKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -233,6 +235,8 @@
 		075E9AF8237936A10038E3C1 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				079F0E9823818B3C000D00D6 /* LoginViewController.h */,
+				079F0E9923818B3C000D00D6 /* LoginViewController.m */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -529,6 +533,7 @@
 				075E9AE7237933140038E3C1 /* main.m in Sources */,
 				079F0E8123818642000D00D6 /* MBPageView.m in Sources */,
 				075E9AFC23793EB00038E3C1 /* HttpUtil.m in Sources */,
+				079F0E9A23818B3C000D00D6 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
